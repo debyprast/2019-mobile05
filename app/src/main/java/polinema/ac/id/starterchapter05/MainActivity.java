@@ -6,10 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import polinema.ac.id.starterchapter05.activities.StaticActivity;
+import polinema.ac.id.starterchapter05.activity.StaticActivity;
 
 public class MainActivity extends AppCompatActivity {
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

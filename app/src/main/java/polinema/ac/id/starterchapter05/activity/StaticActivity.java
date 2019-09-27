@@ -1,4 +1,4 @@
-package polinema.ac.id.starterchapter05.activities;
+package polinema.ac.id.starterchapter05.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
