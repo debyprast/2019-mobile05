@@ -10,6 +10,7 @@ import polinema.ac.id.starterchapter05.activities.StaticActivity;
 
 public class MainActivity extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,13 +18,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void handlerClickStaticFragment(View view) {
-        Intent intent = new Intent(MainActivity.this, StaticActivity.class);
+        Intent intent = new Intent(this, StaticActivity.class);
         startActivity(intent);
     }
 
-    public void handlerClickPraktikumFragment(View view) {
+    public void handlerClickDynamicFragment(View view) {
     }
 
-    public void handlerClickDynamicFragment(View view) {
+    public void handlerClickPraktikumFragment(View view) {
     }
 }
